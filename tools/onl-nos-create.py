@@ -1050,13 +1050,13 @@ Multistrap:
 
   ONL:
     packages: *Packages
-    source: http://apt.opennetlinux.org/debian
+    source: http://ocp.opennetlinux.org/debian
     suite: unstable
     omitdebsrc: true
 
   ONL-Local:
     packages: *Packages
-    source: http://${APT_CACHE}apt.opennetlinux.org/debian
+    source: http://${APT_CACHE}ocp.opennetlinux.org/debian
     suite: unstable
     omitdebsrc: true
 
